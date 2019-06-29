@@ -5,6 +5,9 @@
     "behat/gherkin": {
         "version": "v4.6.0"
     },
+    "behat/mink": {
+        "version": "1.7.x-dev"
+    },
     "behat/transliterator": {
         "version": "v1.2.0"
     },
