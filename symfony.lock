@@ -229,6 +229,18 @@
     "phpstan/phpstan": {
         "version": "0.11.8"
     },
+    "phpstan/phpstan-doctrine": {
+        "version": "0.11.5"
+    },
+    "phpstan/phpstan-mockery": {
+        "version": "0.11.1"
+    },
+    "phpstan/phpstan-phpunit": {
+        "version": "0.11.2"
+    },
+    "phpstan/phpstan-symfony": {
+        "version": "0.11.6"
+    },
     "phpunit/php-code-coverage": {
         "version": "6.1.4"
     },
