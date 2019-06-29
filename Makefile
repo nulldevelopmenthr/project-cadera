@@ -2,7 +2,7 @@
 
 test: spec unit behat
 
-quality: cs-fix stan codesniffer mess-detector
+quality: cs-fix stan codesniffer mess-detector rector
 
 unit: ## Run phpunit tests
 	vendor/bin/phpunit
@@ -32,4 +32,7 @@ codesniffer: ## Run php_codesniffer
 mess-detector: ## Run php mess detector
 	vendor/bin/phpmd src text phpmd.xml
 	vendor/bin/phpmd tests text phpmd.xml
+
+rector: ## Run rector
+	vendor/bin/rector process src
 

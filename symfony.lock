@@ -160,6 +160,9 @@
     "jean85/pretty-package-versions": {
         "version": "1.2"
     },
+    "jetbrains/phpstorm-stubs": {
+        "version": "v2019.1"
+    },
     "mockery/mockery": {
         "version": "1.2.2"
     },
@@ -300,6 +303,9 @@
     },
     "psr/log": {
         "version": "1.1.0"
+    },
+    "rector/rector": {
+        "version": "v0.5.7"
     },
     "sebastian/code-unit-reverse-lookup": {
         "version": "1.0.1"
@@ -718,6 +724,9 @@
     },
     "symfony/yaml": {
         "version": "v4.3.2"
+    },
+    "symplify/package-builder": {
+        "version": "v6.0.4"
     },
     "theseer/tokenizer": {
         "version": "1.1.3"
