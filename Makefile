@@ -1,5 +1,9 @@
 .PHONY: all
 
+test: spec unit behat
+
+quality: cs-fix stan codesniffer mess-detector
+
 unit: ## Run phpunit tests
 	vendor/bin/phpunit
 
