@@ -11,3 +11,11 @@ spec: ## Run phpspec
 behat: ## Run behat
 	APP_ENV=test vendor/bin/behat
 
+
+cs-fix: ## Fix all code style violations using php-cs-fixer
+	vendor/bin/php-cs-fixer fix
+
+cs-check: ## Check for coding style violations
+	vendor/bin/php-cs-fixer fix --dry-run --diff
+
+
