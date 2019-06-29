@@ -21,3 +21,7 @@ cs-check: ## Check for coding style violations
 
 stan: ## Run phpstan checks
 	vendor/bin/phpstan analyse -l 7 -c phpstan.neon src/ tests/
+
+codesniffer: ## Run php_codesniffer
+	vendor/bin/phpcs --standard=phpcs.xml.dist -n
+
