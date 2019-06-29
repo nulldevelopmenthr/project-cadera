@@ -35,6 +35,7 @@
         "behat/symfony2-extension": "^2.1",
         "friendsofphp/php-cs-fixer": "^2.15",
         "mockery/mockery": "^1.2",
+        "phpmd/phpmd": "^2.6",
         "phpspec/phpspec": "^5.1",
         "phpstan/phpstan": "^0.11.8",
         "phpstan/phpstan-doctrine": "^0.11.5",

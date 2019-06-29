@@ -25,3 +25,7 @@ stan: ## Run phpstan checks
 codesniffer: ## Run php_codesniffer
 	vendor/bin/phpcs --standard=phpcs.xml.dist -n
 
+mess-detector: ## Run php mess detector
+	vendor/bin/phpmd src text phpmd.xml
+	vendor/bin/phpmd tests text phpmd.xml
+
