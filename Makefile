@@ -6,3 +6,8 @@ unit: ## Run phpunit tests
 
 spec: ## Run phpspec
 	vendor/bin/phpspec run
+
+
+behat: ## Run behat
+	APP_ENV=test vendor/bin/behat
+
