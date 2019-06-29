@@ -19,3 +19,5 @@ cs-check: ## Check for coding style violations
 	vendor/bin/php-cs-fixer fix --dry-run --diff
 
 
+stan: ## Run phpstan checks
+	vendor/bin/phpstan analyse -l 7 -c phpstan.neon src/ tests/
