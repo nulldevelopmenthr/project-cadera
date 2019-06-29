@@ -5,11 +5,4 @@ parameters:
         container_xml_path: var/cache/test/srcApp_KernelTestDebugContainer.xml
     doctrine:
         objectManagerLoader: tests/object-manager.php
-includes:
-    - vendor/phpstan/phpstan-phpunit/extension.neon
-    - vendor/phpstan/phpstan-phpunit/rules.neon
-    - vendor/phpstan/phpstan-symfony/extension.neon
-    - vendor/phpstan/phpstan-mockery/extension.neon
-    - vendor/phpstan/phpstan-doctrine/extension.neon
-    - vendor/phpstan/phpstan-doctrine/rules.neon
-    - vendor/phpstan/phpstan-strict-rules/rules.neon
+
