@@ -28,6 +28,7 @@
         "symfony/yaml": "4.3.*"
     },
     "require-dev": {
+        "phpspec/phpspec": "^5.1",
         "phpunit/phpunit": "^7.5",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
