@@ -1,0 +1,22 @@
+services:
+    Rector\TypeDeclaration\Rector\FunctionLike\ParamTypeDeclarationRector: ~
+    Rector\TypeDeclaration\Rector\FunctionLike\ReturnTypeDeclarationRector: ~
+    #Rector\DeadCode\Rector\Assign\RemoveDoubleAssignRector: ~
+    #Rector\DeadCode\Rector\Foreach_\RemoveUnusedForeachKeyRector: ~
+    #Rector\DeadCode\Rector\Array_\RemoveDuplicatedArrayKeyRector: ~
+    #Rector\DeadCode\Rector\StaticCall\RemoveParentCallWithoutParentRector: ~
+    #Rector\DeadCode\Rector\ClassMethod\RemoveEmptyClassMethodRector: ~
+    #Rector\DeadCode\Rector\ClassMethod\RemoveUnusedParameterRector: ~
+    #Rector\DeadCode\Rector\ClassMethod\RemoveDeadConstructorRector: ~
+    #Rector\DeadCode\Rector\ClassMethod\RemoveUnusedPrivateMethodRector: ~
+    #Rector\DeadCode\Rector\ClassMethod\RemoveOverriddenValuesRector: ~
+    #Rector\DeadCode\Rector\For_\RemoveDeadIfForeachForRector: ~
+    #Rector\DeadCode\Rector\Property\RemoveUnusedPrivatePropertyRector: ~
+    #Rector\DeadCode\Rector\Stmt\RemoveDeadStmtRector: ~
+    #Rector\DeadCode\Rector\ClassConst\RemoveUnusedPrivateConstantRector: ~
+    #Rector\DeadCode\Rector\FunctionLike\RemoveCodeAfterReturnRector: ~
+    #Rector\DeadCode\Rector\FunctionLike\RemoveDeadReturnRector: ~
+    #Rector\DeadCode\Rector\Expression\SimplifyMirrorAssignRector: ~
+parameters:
+    autoload_paths:
+        - 'vendor/autoload.php'
